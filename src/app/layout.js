@@ -4,8 +4,8 @@ import ClientProtection from "@/components/ClientProtection";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
-  title: "Sargam Pandey",
-  description: "CEO - Shoolin Innovations Limited",
+  title: "Capt. Vikas Patra",
+  description: "Director, School of Maritime Studies, CUTM",
 };
 
 export default function RootLayout({ children }) {

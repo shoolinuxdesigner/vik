@@ -44,29 +44,20 @@ export default function Home() {
   };
 
   return (
-    <div className="h-full lg:h-screen flex items-center justify-center bg-[#e6e9de]  relative">
+    <div className="h-full lg:h-screen flex items-center justify-center bg-[#ebf5ff]  relative">
       <FlickeringGrid className="fixed inset-0 w-full" />
       <div className="min-w-[320px] max-w-[400px] h-full px-4 relative">
-        <Image src={overlay_logo} alt="Overlay Logo" className="absolute top-0 left-0 z-10" />
-        <div className="absolute inset-0 w-full h-full flex opacity-80">
-          <div className="h-full w-1/3 bg-[#494528]"></div>
-          <div className="h-full w-1/3 bg-[#DED9C5]"></div>
-          <div className="h-full w-1/3 bg-[#C5BD98]"></div>
+        {/* <Image src={overlay_logo} alt="Overlay Logo" className="absolute top-0 left-0 z-10" /> */}
+        <div className="absolute inset-0 w-full h-full flex opacity-90">
+          <div className="h-full w-full bg-[#13365e]"></div>
         </div>
         <div className="relative z-25 h-full flex flex-col text-white py-5">
           <div className="flex flex-col w-full justify-center items-center pt-10">
             <Image src={vector} alt="Sargam Pandey Image" className="w-[280px]" />
-            <div className="imageBar h-[1px] w-full hidden"></div>
-            <div className="h-6 w-full hidden">
-              <div className="relative w-full h-20 overflow-hidden">
-                <div className="absolute inset-0 z-1 -translate-y-16 scale-80 h-22 w-full rounded-full bg-lime-600 opacity-10 blur-3xl"></div>
-                <div className="absolute left-5 z-1 -translate-y-16 scale-80 h-22 w-80 rounded-full bg-lime-600/40 blur-2xl"></div>
-              </div>
-            </div>
           </div>
           <div className="flex flex-col w-full justify-center items-center  px-5 pt-3 pb-6 first_bg relative -top-3 z-20 mb-3">
-            <h1 className="text-3xl font-semibold text-[#1D1B09] text-center">Sargam Pandey</h1>
-            <p className="text-center text-[#1D1B09]">CEO & MD, Shoolin Innovations Limited</p>
+            <h1 className="text-3xl font-semibold text-blue-950 text-center">Capt. Vikas Patra</h1>
+            <p className="text-center text-[14px] text-blue-900">Director, School of Maritime Studies, CUTM</p>
             <Social />
           </div>
           <section className="pb-18">
@@ -92,9 +83,9 @@ export default function Home() {
                 <DrawerContent className="bg-orange-50 min-w-[320px] max-w-[400px] mx-auto">
                   <DrawerHeader>
                     <DrawerTitle>
-                      <div className="text-3xl font-semibold text-[#494528] text-center">Sargam Pandey</div>
+                      <div className="text-3xl font-semibold text-[#494528] text-center">Capt. Vikas Patra</div>
                     </DrawerTitle>
-                    <DrawerDescription className="text-[#494528] text-md">CEO & MD, Shoolin Innovations Limited</DrawerDescription>
+                    <DrawerDescription className="text-[#494528] text-md">Director, School of Maritime Studies, CUTM</DrawerDescription>
                   </DrawerHeader>
                   <div className="px-4">
                     <Share />

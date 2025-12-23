@@ -7,11 +7,11 @@ export const FlickeringGrid = ({
   squareSize = 4,
   gridGap = 6,
   flickerChance = 0.3,
-  color = "#97a67f",
+  color = "#13365e",
   width,
   height,
   className,
-  maxOpacity = 0.8,
+  maxOpacity = 0.6,
   ...props
 }) => {
   const canvasRef = useRef(null)
