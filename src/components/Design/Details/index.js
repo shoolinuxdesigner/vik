@@ -1,11 +1,8 @@
 "use client"
 import React from "react"
-import { BorderBeam } from "@/components/ui/border-beam"
-import { Card } from "@/components/ui/card"
 
 // Icons
 import { IoMailOutline, IoGlobeOutline } from "react-icons/io5";
-import { IoMdCall } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";

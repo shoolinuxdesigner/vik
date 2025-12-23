@@ -12,7 +12,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link href="https://fonts.cdnfonts.com/css/trebuchet-ms-2" rel="stylesheet" />
       </head>
       <body className="antialiased" suppressHydrationWarning>
         {/* <ClientProtection> */}

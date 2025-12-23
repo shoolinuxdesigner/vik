@@ -20,10 +20,7 @@ import { Profile } from "@/components/Design/Details";
 import { About } from "@/components/Design/About";
 import { Social } from "@/components/Design/Social";
 
-// import sargam from "@/assets/images/imageDark.png"
-import sargam from "@/assets/images/image_2.png"
 import vector from "@/assets/images/vector.png"
-import overlay_logo from "@/assets/images/logo_over.png"
 import { Share } from "@/components/Design/Share";
 
 export default function Home() {
@@ -47,9 +44,8 @@ export default function Home() {
     <div className="h-full lg:h-screen flex items-center justify-center bg-[#ebf5ff]  relative">
       <FlickeringGrid className="fixed inset-0 w-full" />
       <div className="min-w-[320px] max-w-[400px] h-full px-4 relative">
-        {/* <Image src={overlay_logo} alt="Overlay Logo" className="absolute top-0 left-0 z-10" /> */}
-        <div className="absolute inset-0 w-full h-full flex opacity-90">
-          <div className="h-full w-full bg-[#13365e]"></div>
+        <div className="absolute inset-0 w-full h-full flex bg-[#13365e]/90">
+          <div className="h-full w-full  background_image"></div>
         </div>
         <div className="relative z-25 h-full flex flex-col text-white py-5">
           <div className="flex flex-col w-full justify-center items-center pt-10">
@@ -70,22 +66,22 @@ export default function Home() {
             <div className="flex max-fit justify-center items-center overflow-hidden rounded-full">
               <button
                 onClick={handleDownload}
-                className="w-full flex items-center justify-center whitespace-nowrap gap-2 bg-[#332f11] hover:bg-[#1d1a07] text-white font-medium py-2 px-3 transition-all duration-200"
+                className="w-full flex items-center justify-center whitespace-nowrap gap-2 bg-blue-950 hover:bg-blue-900 text-white font-medium py-2 px-3 transition-all duration-200"
               >
                 <MdSaveAlt className="text-lg" />
                 Save Contact
               </button>
               <Drawer>
-                <DrawerTrigger className="w-full flex items-center justify-center whitespace-nowrap gap-2 bg-[#443f18] border-l-2 border-white hover:bg-[#332f11] text-white font-medium py-2 px-3 transition-all duration-200">
+                <DrawerTrigger className="w-full flex items-center justify-center whitespace-nowrap gap-2 bg-blue-950 border-l-2 border-white hover:bg-blue-900 text-white font-medium py-2 px-3 transition-all duration-200">
                   <IoMdShare className="text-lg" />
                   Share Contact
                 </DrawerTrigger>
-                <DrawerContent className="bg-orange-50 min-w-[320px] max-w-[400px] mx-auto">
+                <DrawerContent className="bg-blue-50 min-w-[320px] max-w-[400px] mx-auto">
                   <DrawerHeader>
                     <DrawerTitle>
-                      <div className="text-3xl font-semibold text-[#494528] text-center">Capt. Vikas Patra</div>
+                      <div className="text-3xl font-semibold text-blue-900 text-center">Capt. Vikas Patra</div>
                     </DrawerTitle>
-                    <DrawerDescription className="text-[#494528] text-md">Director, School of Maritime Studies, CUTM</DrawerDescription>
+                    <DrawerDescription className="text-blue-900 text-[19px]">Director, School of Maritime Studies, CUTM</DrawerDescription>
                   </DrawerHeader>
                   <div className="px-4">
                     <Share />
