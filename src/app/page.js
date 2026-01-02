@@ -21,6 +21,8 @@ import { About } from "@/components/Design/About";
 import { Social } from "@/components/Design/Social";
 
 import vector from "@/assets/images/vector.png"
+import avatar from "@/assets/images/avatar.png"
+import avatarStoked from "@/assets/images/avatar-stoked.png"
 import { Share } from "@/components/Design/Share";
 
 export default function Home() {
@@ -48,8 +50,8 @@ export default function Home() {
           <div className="h-full w-full  background_image"></div>
         </div>
         <div className="relative z-25 h-full flex flex-col text-white py-5">
-          <div className="flex flex-col w-full justify-center items-center pt-10">
-            <Image src={vector} alt="Sargam Pandey Image" className="w-[280px]" />
+          <div className="flex flex-col w-full justify-center items-center pt-3">
+            <Image src={avatarStoked} alt="Capt. Vikas Patra Image" className="w-[280px]" />
           </div>
           <div className="flex flex-col w-full justify-center items-center  px-5 pt-3 pb-6 first_bg relative -top-3 z-20 mb-3">
             <h1 className="text-3xl font-semibold text-blue-950 text-center">Capt. Vikas Patra</h1>
