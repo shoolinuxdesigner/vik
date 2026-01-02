@@ -44,7 +44,7 @@ export default function Home() {
     <div className="h-full lg:h-screen flex items-center justify-center bg-[#ebf5ff]  relative">
       <FlickeringGrid className="fixed inset-0 w-full" />
       <div className="min-w-[320px] max-w-[400px] h-full px-4 relative">
-        <div className="absolute inset-0 w-full h-full flex bg-[#13365e]/90">
+        <div className="absolute inset-0 w-full h-full flex bg-[#13365e]/95">
           <div className="h-full w-full  background_image"></div>
         </div>
         <div className="relative z-25 h-full flex flex-col text-white py-5">
