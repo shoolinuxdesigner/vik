@@ -11,16 +11,21 @@ import { FaXTwitter } from "react-icons/fa6";
 export function Profile() {
     return (
         <>
-            <div className="relative w-full px-10 pb-5 pt-7 rounded-lg overflow-hidden gap-2 third_bg">
+            <div className="relative w-full p-5 rounded-lg overflow-hidden gap-2 bg-white/95">
+                {/* <div className="relative w-full px-10 pb-5 pt-7 rounded-lg overflow-hidden gap-2 third_bg"> */}
                 <h1 className="text-center font-semibold uppercase mb-3 text-blue-900 hidden">Contact Me</h1>
                 <div className="flex flex-col gap-1.5">
                     <div className="flex items-center gap-3 text-blue-900">
-                        <IoMailOutline size={22} className="pt-0.5 opacity-70" />
-                        <a href="mailto:vik.patra@cutm.ac.in" target="_blank" className="w-full">vik.patra@cutm.ac.in</a>
+                        <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
+                        <a href="https://maritimehub.org" target="_blank" className="w-full">maritimehub.org</a>
                     </div>
                     <div className="flex items-center gap-3 text-blue-900">
                         <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
-                        <a href="https://vik.sametmaritime.com/" target="_blank" className="w-full">vik.sametmaritime.com</a>
+                        <a href="https://maritime.cutm.ac.in/" target="_blank" className="w-full">maritime.cutm.ac.in</a>
+                    </div>
+                    <div className="flex items-center gap-3 text-blue-900">
+                        <IoMailOutline size={22} className="pt-0.5 opacity-70" />
+                        <a href="mailto:ceo@maritimehub.org" target="_blank" className="w-full">ceo@maritimehub.org</a>
                     </div>
                     <div className="flex items-center gap-3 text-blue-900">
                         <FaWhatsapp size={22} className="pt-0.5 opacity-70" />
