@@ -6,8 +6,6 @@ export function About() {
     return (
         <>
             <div className="relative w-full p-4 rounded-lg overflow-hidden gap-2 bg-[#0f1f33]">
-                {/* <div className="relative w-full px-8 py-7 rounded-lg overflow-hidden gap-2 second_bg"> */}
-                <h1 className="text-center font-semibold uppercase mb-2 text-blue-950 hidden">About Me</h1>
                 <div className="flex flex-col gap-1.5">
                     <p className="text-white text-center text-[19px] font-semibold">Master Mariner | Maritime Education & Consultancy Leader</p>
                     <hr className="border-white/30 my-1" />

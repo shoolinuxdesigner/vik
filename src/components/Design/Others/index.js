@@ -16,7 +16,7 @@ export function Others() {
     return (
         <>
             {/* SOMS */}
-            <div className="relative w-full p-4 rounded-lg gap-2 bg-[#04274d] mt-3">
+            <div className="relative w-full p-4 rounded-lg gap-2 bg-[#04274d] mt-8">
                 <div className="flex flex-col gap-1.5 relative">
                     <div className="absolute -top-8 bg-[#04274d] flex justify-center items-center p-1 rounded-md">
                         <Image src={Soms} alt="School of Marine Studies" className="w-[160px]" />
