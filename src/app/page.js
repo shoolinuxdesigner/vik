@@ -22,7 +22,7 @@ import { Social } from "@/components/Design/Social";
 
 import vector from "@/assets/images/vector.png"
 import avatar from "@/assets/images/avatar.png"
-import avatarStoked from "@/assets/images/avatar-stoked.png"
+import mainImage from "@/assets/images/main_avatar.png"
 import { Share } from "@/components/Design/Share";
 
 export default function Home() {
@@ -51,10 +51,10 @@ export default function Home() {
         </div>
         <div className="relative z-25 h-full flex flex-col text-white py-5 px-3">
           <div className="flex flex-col w-full justify-center items-center pt-3">
-            <Image src={avatarStoked} alt="Capt. Vikas Patra Image" className="w-[280px]" />
+            <Image src={mainImage} alt="Capt. Vikas Patra Image" className="w-[290px]" />
           </div>
           {/* <div className="flex flex-col w-full justify-center items-center  px-5 pt-3 pb-6 first_bg relative -top-3 z-20 mb-3"> */}
-          <div className="flex flex-col w-full justify-center items-center  px-3 pt-3 pb-6 relative -top-3 z-20 mb-3 bg-white/90 rounded-xl">
+          <div className="flex flex-col w-full justify-center items-center  px-3 pt-3 pb-6 relative -top-3 z-20 mb-3 bg-white rounded-xl">
             <h1 className="text-3xl font-semibold text-blue-950 text-center">Capt. Vikas Patra</h1>
             <p className="text-center text-[14px] text-blue-900">Director, School of Maritime Studies, CUTM</p>
             <Social />
