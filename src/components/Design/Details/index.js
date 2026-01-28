@@ -25,7 +25,7 @@ export function Profile() {
                     </div> */}
                     <div className="flex items-center gap-3 text-blue-900">
                         <IoMailOutline size={22} className="pt-0.5 opacity-70" />
-                        <a href="mailto:ceo@maritimehub.org" target="_blank" className="w-full">ceo@maritimehub.org</a>
+                        <a href="mailto:ceo@themaritimehub.org" target="_blank" className="w-full">ceo@themaritimehub.org</a>
                     </div>
                     <div className="flex items-center gap-3 text-blue-900">
                         <FaWhatsapp size={22} className="pt-0.5 opacity-70" />
