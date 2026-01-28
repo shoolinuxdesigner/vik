@@ -15,10 +15,10 @@ export function Profile() {
                 {/* <div className="relative w-full px-10 pb-5 pt-7 rounded-lg overflow-hidden gap-2 third_bg"> */}
                 <h1 className="text-center font-semibold uppercase mb-3 text-blue-900 hidden">Contact Me</h1>
                 <div className="flex flex-col gap-1.5">
-                    <div className="flex items-center gap-3 text-blue-900">
+                    {/* <div className="flex items-center gap-3 text-blue-900">
                         <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
                         <a href="https://themaritimehub.org" target="_blank" className="w-full">themaritimehub.org</a>
-                    </div>
+                    </div> */}
                     {/* <div className="flex items-center gap-3 text-blue-900">
                         <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
                         <a href="https://maritime.cutm.ac.in/" target="_blank" className="w-full">maritime.cutm.ac.in</a>
