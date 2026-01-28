@@ -17,7 +17,7 @@ export function Profile() {
                 <div className="flex flex-col gap-1.5">
                     <div className="flex items-center gap-3 text-blue-900">
                         <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
-                        <a href="https://maritimehub.org" target="_blank" className="w-full">maritimehub.org</a>
+                        <a href="https://themaritimehub.org" target="_blank" className="w-full">themaritimehub.org</a>
                     </div>
                     {/* <div className="flex items-center gap-3 text-blue-900">
                         <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
